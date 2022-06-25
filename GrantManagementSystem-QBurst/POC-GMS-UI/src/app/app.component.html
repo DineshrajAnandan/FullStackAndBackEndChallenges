@@ -1,0 +1,10 @@
+<nav class="navbar fixed-top navbar-light bg-light justify-content-between" *ngIf="!!user">
+  <a class="navbar-brand" style="margin-left: 1em;">Grant Management System</a>
+  <span>{{user.userName}}</span>
+  <button class="btn btn-outline-success my-2 my-sm-0 m-2" (click)="logout()">Logout</button>
+</nav>
+
+<!-- main app container -->
+<div class="app-container" style="margin-top: 3rem;">
+  <router-outlet></router-outlet>
+</div>
