@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTableScheduler", "TimeTableScheduler\TimeTableScheduler.csproj", "{66E61F1C-AB7C-4615-8A46-4B54678C949D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeTableScheduler.Repository", "TimeTableScheduler.Repository\TimeTableScheduler.Repository.csproj", "{FB46C041-F22C-4257-BA27-4FDD3D17BBF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeTableScheduler.Common", "TimeTableScheduler.Common\TimeTableScheduler.Common.csproj", "{593EC111-C4D1-4092-8298-00ED84E0FF80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66E61F1C-AB7C-4615-8A46-4B54678C949D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66E61F1C-AB7C-4615-8A46-4B54678C949D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66E61F1C-AB7C-4615-8A46-4B54678C949D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66E61F1C-AB7C-4615-8A46-4B54678C949D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB46C041-F22C-4257-BA27-4FDD3D17BBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB46C041-F22C-4257-BA27-4FDD3D17BBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB46C041-F22C-4257-BA27-4FDD3D17BBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB46C041-F22C-4257-BA27-4FDD3D17BBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{593EC111-C4D1-4092-8298-00ED84E0FF80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{593EC111-C4D1-4092-8298-00ED84E0FF80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{593EC111-C4D1-4092-8298-00ED84E0FF80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{593EC111-C4D1-4092-8298-00ED84E0FF80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBB435B5-C099-4AAF-9D20-CBE288907EF3}
+	EndGlobalSection
+EndGlobal
