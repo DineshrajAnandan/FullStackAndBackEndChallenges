@@ -1,0 +1,13 @@
+<div class="container-sm mt-5">
+    <label for="select-batch-nos" class="form-label">Number of batches</label>
+    <select [(ngModel)]="batchesNos" id="select-batch-nos" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <option selected value="0">Select number of batches</option>
+      <option [value]="no" *ngFor="let no of inputOptions">{{no}}</option>
+    </select>
+    <label for="select-nos-per-batch" class="form-label">Numbers per batch</label>
+    <select [(ngModel)]="nosPerBatch" id="select-nos-per-batch"  class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <option selected value="0">Select numbers per batch</option>
+      <option [value]="no" *ngFor="let no of inputOptions">{{no}}</option>
+    </select>
+    <button type="button" [disabled]="requestInProgress" class="btn btn-outline-primary" (click)="startProcess()">Start</button>
+</div>

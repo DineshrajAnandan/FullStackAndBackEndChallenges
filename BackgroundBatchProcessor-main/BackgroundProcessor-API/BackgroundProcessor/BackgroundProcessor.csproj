@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Hangfire" Version="1.7.22" />
+    <PackageReference Include="Hangfire.InMemory" Version="0.3.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BackgroundProcessor.Contracts\BackgroundProcessor.Contracts.csproj" />
+    <ProjectReference Include="..\BackgroundProcessor.DB\BackgroundProcessor.DB.csproj" />
+    <ProjectReference Include="..\BackgroundProcessor.Services\BackgroundProcessor.Services.csproj" />
+    <ProjectReference Include="..\BackgroundProcessor.Workers\BackgroundProcessor.Workers.csproj" />
+  </ItemGroup>
+
+</Project>

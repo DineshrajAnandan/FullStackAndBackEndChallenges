@@ -1,0 +1,18 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Batch Id</th>
+      <th scope="col">Total Numbers</th>
+      <th scope="col">Processed Numbers</th>
+      <th scope="col">BatchTotal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let batch of data">
+      <th scope="row">{{batch.batchId}}</th>
+      <td>{{batch.totalNumbers}}</td>
+      <td>{{batch.processedNumbers}}</td>
+      <td>{{batch.batchTotal}}</td>
+    </tr>
+  </tbody>
+</table>
